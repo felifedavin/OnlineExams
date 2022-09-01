@@ -1,0 +1,79 @@
+
+Additional Function:
+---------------------
+https://localhost:44360/api/TestForms/getall
+
+Categories:
+------------
+{
+ "CategoryName": "Category 1"
+}
+
+TestForm:
+----------
+{
+    "CategoryID": 1,
+    "FormTitle": "Form 1",
+    "FormDescription": "Form Desc",
+    "VisibilityType": "global",
+    "VisibilityValue": "yes",
+    "CreatedDate": "2022-09-02T00:00:00",
+    "CreatedBy": "admin",
+    "ModifyDate": "1970-01-01T00:00:00",
+    "ModifyBy": ""
+}
+
+---------------------
+
+{
+    "CategoryID": 1,
+    "FormTitle": "Form 2",
+    "FormDescription": "Form 2 Desc",
+    "VisibilityType": "vertical",
+    "VisibilityValue": "demo vertical 1",
+    "CreatedDate": "2022-09-02T00:00:00",
+    "CreatedBy": "admin",
+    "ModifyDate": "1970-01-01T00:00:00",
+    "ModifyBy": ""
+}
+
+
+FormsQuestions
+---------------
+
+{
+    "FormID": 2,
+    "QuestionText": "Demo Question 1",
+    "QuestionDesc": "",
+    "AnswerType": "radio",
+    "AnswerIdRandomUnique": 101,
+    "URL": "",
+    "RequiredAnswer": true,
+    "VisibilityType": "vertical",
+    "VisibilityValue": "demo vertical 1",
+    "CreatedDate": "2022-09-02T00:00:00",
+    "CreatedBy": "admin",
+    "ModifyDate": "1970-01-01T00:00:00",
+    "ModifyBy": ""
+}
+
+QuestionAnswers
+-----------------
+
+{
+    "AnswerIdRandomUnique": 101,
+    "AnswerText": "Answer 1",
+    "IsCorrect": false
+}
+
+{
+    "AnswerIdRandomUnique": 101,
+    "AnswerText": "Answer 2",
+    "IsCorrect": true
+}
+
+{
+    "AnswerIdRandomUnique": 101,
+    "AnswerText": "Answer 3",
+    "IsCorrect": false
+}
